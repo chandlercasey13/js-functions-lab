@@ -288,8 +288,8 @@ Challenge yourself with numArgs. This function should return the count of argume
 Complete the exercise in the space below:
 */
 
-function numArgs(argument){
-
+function numArgs(){
+return arguments.length
 }
 
 console.log('Exercise 14 Result:', numArgs(1, 2, 3, 4));
